@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "invoice_detail")
-@JsonPropertyOrder({"id", "code","product", "amount", "price"})
+@JsonPropertyOrder({"id", "code","product","amount", "price","subtotal"})
 public class Invoice_detail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -43,7 +43,8 @@ public class ClientService {
             clientsDb.setName(newClients.getName());
             /*clientsDb.setId(newClients.getId());*/
 
-            this.clientRepository.save(clientsDb);
+
+            //this.clientRepository.save(clientsDb);
             return clientsDb;
         }
 
